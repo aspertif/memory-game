@@ -1,4 +1,4 @@
-* {
+* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 .container {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(150, 5, 5, 0.1);
     padding: 20px;
     max-width: 600px;
     width: 100%;
@@ -25,7 +25,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ff0000;
     margin-bottom: 20px;
 }
 
@@ -34,7 +34,7 @@ h1 {
     justify-content: space-between;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #555;
+    color: #00eb27;
 }
 
 .game-container {
@@ -72,7 +72,7 @@ h1 {
 }
 
 .card.matched {
-    background-color: #4CAF50;
+    background-color: #0004ff;
     cursor: default;
 }
 
@@ -80,7 +80,7 @@ h1 {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .restart-btn:hover {
-    background-color: #45a049;
+    background-color: #dadada;
 }
 
 @media (max-width: 480px) {
